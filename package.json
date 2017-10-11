@@ -1,7 +1,7 @@
 {
   "name": "strip-pragma-loader",
   "version": "0.0.1",
-  "description": "A webpack loader to strip out code blocks between requirejs pragma style comments.",
+  "description": "A webpack loader to strip out code blocks between RequireJS pragma style comments.",
   "main": "index.js",
   "repository": {
     "type": "git",

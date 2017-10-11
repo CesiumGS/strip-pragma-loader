@@ -66,7 +66,7 @@ module: {
 }
 ```
 
-> See the [reuireJS configuration options](https://github.com/requirejs/r.js/blob/master/build/example.build.js?utm_campaign=improving-frontend-web-performance-using-requirejs-optimiser-2013-jun&utm_medium=post&utm_source=blog#L260) for more information on pragmas.
+> See the [RequireJS configuration options](https://github.com/requirejs/r.js/blob/master/build/example.build.js?utm_campaign=improving-frontend-web-performance-using-requirejs-optimiser-2013-jun&utm_medium=post&utm_source=blog#L260) for more information on pragmas.
 
 ## Contributions
 
@@ -75,4 +75,4 @@ Pull requests are appreciated. Please use the same [Contributor License Agreemen
 ---
 
 Developed by the Cesium team.
-[![Cesium](./doc/cesium.png)](https://cesium.com/)
+<a href="https://cesium.com/"><img alt="Cesium" src="doc/cesium.png" /></a>

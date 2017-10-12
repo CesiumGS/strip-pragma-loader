@@ -2,8 +2,14 @@
 
 var loaderUtils = require('loader-utils');
 
+function escapeCharacters(token) {
+    return token.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
+
 function constructRegex(pragma, exclusive) {
     var prefix = exclusive ? 'exclude' : 'include';
+    pragma = escapeCharacters(pragma);
+
     var s = '[\\t ]*\\/\\/>>\\s?' +
         prefix +
         'Start\\s?\\(\\s?(["\'])' +

@@ -45,7 +45,7 @@ You can pass options to the loader using the [`options` property](https://webpac
 
 The following options are supported:
 
- * `pragma`: Object with each pragma name and value. A `false` value will strip out and `includeStart` blocks, and a `true` value will strip out and `exlcudeStart` blocks. Defaults to an empty object.
+ * `pragmas`: Object with each pragma name and value. A `false` value will strip out and `includeStart` blocks, and a `true` value will strip out and `exlcudeStart` blocks. Defaults to an empty object.
 
 For example, the following would strip out all blocks beginning with `//>>includeStart('debug', pragmas.debug);` and ending with `//>>includeEnd('debug');`:
 

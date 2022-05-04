@@ -1,0 +1,8 @@
+[
+    {
+        "name": "loader-utils",
+        "license": ["MIT"],
+        "version": "1.4.0",
+        "url": "https://github.com/webpack/loader-utils"
+    }
+]

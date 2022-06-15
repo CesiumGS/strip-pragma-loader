@@ -1,6 +1,6 @@
 {
   "name": "strip-pragma-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader to strip out code blocks between RequireJS pragma style comments.",
   "main": "index.js",
   "repository": {

@@ -27,7 +27,7 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/AnalyticalGraphicsInc/strip-pragma-loader",
   "peerDependencies": {
-    "webpack": "^2.0.0"
+    "webpack": "2.x || 3.x || 4.x || 5.x"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"

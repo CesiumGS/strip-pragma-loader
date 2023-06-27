@@ -26,7 +26,7 @@ In your webpack configuration object, you'll need to add `strip-pragma-loader` t
 module: {
 	rules: [{
 		test: /\.js$/,
-		enforce: pre,
+		enforce: 'pre',
 		use: [{
 			loader: 'strip-pragma-loader',
 			options: {
@@ -53,7 +53,7 @@ For example, the following would strip out all blocks beginning with `//>>includ
 module: {
 	rules: [{
 		test: /\.js$/,
-		enforce: pre,
+		enforce: 'pre',
 		use: [{
 			loader: 'strip-pragma-loader',
 			options: {
